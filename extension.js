@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "𝔾𝔽𝕃 𝔹𝕠𝕥";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,35 +46,35 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "𝔾𝔽𝕃 𝔹𝕠𝕥",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 60,
       afkRemoval: true,
-      maximumDc: 60,
+      maximumDc: 20,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
-      lockGuard: false,
+      lockGuard: true,
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
-      voteSkipLimit: 10,
+      voteSkip: true,
+      voteSkipLimit: 5,
       historySkip: false,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
-      commandCooldown: 30,
+      commandCooldown: 1,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
@@ -89,21 +89,21 @@
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motdInterval: null,
+      motd: "Hosted for gflclan.com! No trolls and have fun!",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: null,
-      themeLink: null,
-      fbLink: null,
-      youtubeLink: null,
-      website: null,
-      intervalMessages: [],
-      messageInterval: 5,
+      rulesLink: "https://docs.google.com/document/d/1vD7FXySc8322B0o8nPp0FRvuiEALT92gYp4QPfkFWp4/edit?usp=sharing",
+      themeLink: "https://docs.google.com/document/d/1mOzVD6UcFJYvHxD61p70FYI17RMB8Cj0HpC1JSD95Gg/edit?usp=sharing",
+      fbLink: "https://www.facebook.com/gflclanofficial/",
+      youtubeLink: "https://www.youtube.com/c/gflcommunity",
+      website: "https://gflclan.com/",
+      intervalMessages: ["Hang out and keep playing some great tunes!", "Remember, you're on GFL's Plug.dj community!", "Keep up the awesome music and have fun!"],
+      messageInterval: 3,
       songstats: true,
-      commandLiteral: "!",
+      commandLiteral: ["!", "/"],
       blacklists: {
         NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
         OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
