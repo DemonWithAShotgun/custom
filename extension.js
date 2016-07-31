@@ -103,7 +103,7 @@
       intervalMessages: ["Hang out and keep playing some great tunes!", "Remember, you're on GFL's Plug.dj community!", "Keep up the awesome music and have fun!"],
       messageInterval: 3,
       songstats: true,
-      commandLiteral: ["!", "/"],
+      commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
         OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
