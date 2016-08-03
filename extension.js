@@ -59,8 +59,8 @@
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 60,
-      afkRemoval: true,
-      maximumDc: 20,
+      afkRemoval: false,
+      maximumDc: 30,
       bouncerPlus: true,
       blacklistEnabled: true,
       lockdownEnabled: false,
@@ -100,8 +100,12 @@
       fbLink: "https://www.facebook.com/gflclanofficial/",
       youtubeLink: "https://www.youtube.com/c/gflcommunity",
       website: "https://gflclan.com/",
-      intervalMessages: ["Hang out and keep playing some great tunes!", "Remember, you're on GFL's Plug.dj community!", "Keep up the awesome music and have fun!"],
-      messageInterval: 3,
+      intervalMessages: [
+          ["Hang out and keep playing some great tunes!"],
+          ["Remember, you're on GFL's Plug.dj community!"],
+          ["Keep up the awesome music and have fun!"]
+          ],
+      messageInterval: 5,
       songstats: true,
       commandLiteral: "!",
       blacklists: {
