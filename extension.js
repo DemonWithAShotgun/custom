@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "𝔾𝔽𝕃 𝔹𝕠𝕥",
       language: "english",
-      chatLink: "https://raw.githubusercontent.com/DemonWithAShotgun/custom/patch-1/lang/en.json",
+      chatLink: "https://raw.githubusercontent.com/DemonWithAShotgun/custom/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 50, // 1-200
