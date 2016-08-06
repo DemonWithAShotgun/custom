@@ -58,7 +58,7 @@
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 60,
+      maximumAfk: 180,
       afkRemoval: false,
       maximumDc: 30,
       bouncerPlus: true,
@@ -69,8 +69,8 @@
       cycleGuard: true,
       maximumCycletime: 10,
       voteSkip: true,
-      voteSkipLimit: 5,
-      historySkip: false,
+      voteSkipLimit: 3,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
@@ -78,9 +78,9 @@
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
-      ["theme", "This song does not fit the room theme. "],
-      ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
+      ["not music", "This is not music and is not allowed. "],
+      ["history", "This song has been played too often. "],
+      ["meme", "This song is not actual music and is not allowed. "],
       ["mix", "You played a mix, which is against the rules. "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
@@ -103,9 +103,10 @@
       intervalMessages: [
           ["Hang out and keep playing some great tunes!"],
           ["Remember, you're on GFL's Plug.dj community!"],
-          ["Keep up the awesome music and have fun!"]
+          ["Keep up the awesome music and have fun!"],
+          ["Thanks for joining GFL's Plug.dj!"]
           ],
-      messageInterval: 5,
+      messageInterval: 10,
       songstats: true,
       commandLiteral: "!",
       blacklists: {
